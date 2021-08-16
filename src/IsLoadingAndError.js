@@ -8,7 +8,7 @@ class IsLoadingAndError extends React.Component {
         <div> Loading...</div>
         :
         this.props.auth0.error ?
-          <div>Oops... {this.props.auth0.error.message}</div>
+          <div> {this.props.auth0.error.message}</div>
           :
           this.props.children
     );

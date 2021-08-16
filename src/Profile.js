@@ -9,7 +9,7 @@ export class Profile extends Component {
                     <>
                     <h1>UserName:{this.props.auth0.user.name}</h1>
                     <h2>email:{this.props.auth0.user.email}</h2>
-                    <img src={this.props.auth0.user.picture} alt="walaa photo"/>
+                    <img src={this.props.auth0.user.picture} alt="walaa"/>
                     </>
                 }
                 
